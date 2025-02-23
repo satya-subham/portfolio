@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgAdHbsdG59rNzuO021lKnBS8AYuo-L84HLg&s">
+    <script src="https://kit.fontawesome.com/b9e0fa375d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header Nav Bar -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h1>SATYASUBHAM</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home" class="nav-link" data-target="home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-target="about">About</a></li>
+                    <li><a href="#services" class="nav-link" data-target="services">Services</a></li>
+                    <li><a href="#skills" class="nav-link" data-target="skills">Skills</a></li>
+                    <li><a href="#projects" class="nav-link" data-target="projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-link" data-target="contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="content">
+                <div class="headline">
+                    <h2>HI, I'M</h2>
+                    <h1>SATYASUBHAM</h1>
+                    <h3>And I'm a <span>Full Stack DEVELOPER</span></h3>
+                </div>
+                <div class="description">
+                    <p>As a passionate and versatile Full Stack Developer, I specialize in creating robust, scalable,
+                        and
+                        intuitive web applications. With a deep understanding of both front-end and back-end
+                        technologies, I
+                        bring a holistic approach to web development, ensuring seamless user experiences and efficient
+                        back-end architectures.</p>
+                </div>
+                <div class="links">
+                    <a href="https://leetcode.com/u/satyasubham/" target="_blank" class="leetcode btn"><i
+                            class="fa-solid fa-code fa-beat"></i></a>
+                    <a href="https://www.linkedin.com/in/satya-subham/" target="_blank" class="linkedin btn"><i
+                            class="fa-brands fa-linkedin fa-beat"></i></a>
+                    <a href="https://github.com/satya-subham" target="_blank" class="github btn"><i
+                            class="fa-brands fa-github fa-beat"></i></a>
+                    <a href="./assets/resume.pdf" download target="_blank"><i
+                            class="fa-solid fa-download fa-beat"></i></a>
+                </div>
+            </div>
+            <div class="image-container">
+                <!-- <img src="./assets/satya.png" alt="" srcset=""> -->
+            </div>
+        </section>
+
+
+
+
+        <!-- About Section -->
+        <section>
+            <div class="about" id="about">
+                <div class="about-image line">
+                    <img src="./assets/satya.png" alt="" srcset="">
+                </div>
+                <div class="about-content">
+                    <div class="headline">
+                        <h2>I'm a <span>Full Stack Developer</span></h2>
+                    </div>
+                    <div class="description">
+                        <p>I have a passion for web development
+                            and love to create web applications that are both intuitive and user-friendly. I specialize
+                            in
+                            creating robust, scalable, and efficient web applications that provide seamless user
+                            experiences.
+                            I have a deep understanding of both front-end and back-end technologies, which allows me to
+                            create holistic web solutions that meet the needs of my clients. I am always looking to
+                            expand my
+                            skill set and stay up-to-date with the latest technologies in web development.
+                        </p>
+                    </div>
+                    <div class="details">
+                        <details>
+                            <summary>Read More...</summary>
+                            I have hands-on experience with a wide range of programming languages, frameworks, and
+                            databases, allowing me to adapt quickly to different project requirements. From crafting
+                            dynamic, responsive user interfaces to designing secure APIs and optimizing databases, I
+                            take pride in delivering high-quality solutions that meet both client and user needs.
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Service Section -->
+        <section>
+            <div class="services" id="services">
+                <div class="headline">
+                    <h1>My Services</h1>
+                </div>
+                <div class="service-container">
+                    <div class="service">
+                        <i class="fa-solid fa-code fa-beat"></i>
+                        <h3>Web Development</h3>
+                        <p>I specialize in creating robust, scalable, and intuitive web applications that provide
+                            seamless
+                            user experiences.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-mobile fa-beat"></i>
+                        <h3>Mobile Development</h3>
+                        <p>I have experience developing mobile applications for both iOS and Android platforms.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-database fa-beat"></i>
+                        <h3>Database Management</h3>
+                        <p>I have experience designing and optimizing databases to ensure efficient data storage and
+                            retrieval.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-server fa-beat"></i>
+                        <h3>API Development</h3>
+                        <p>I have experience designing and implementing secure APIs to connect front-end and back-end
+                            systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Skills Section -->
+        <section>
+            <div class="skills" id="skills">
+                <div class="headline">
+                    <h1>My Skills</h1>
+                    <a href="#skills" class="skills-links" onclick="showSkills(event)">Front End</a>
+                    <a href="#skills" class="skills-links" onclick="showSkills(event)">Back End</a>
+                    <a href="#skills" class="skills-links" onclick="showSkills(event)">Data Base</a>
+                    <a href="#skills" class="skills-links" onclick="showSkills(event)">Version Control</a>
+                    <a href="#skills" class="skills-links" onclick="showSkills(event)">Other Tools</a>
+                </div>
+                <div class="skill-container">
+                    <div class="front-end" id="front-end">
+                        <div class="skill">
+                            <i class="fa-brands fa-html5" style="color: #74C0FC;"></i>
+                            <progress max="100" value="90"></progress>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-css3" style="color: #B197FC;"></i>
+                            <progress max="100" value="85"></progress>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-react" style="color: #74C0FC;"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i>
+                            <progress max="100" value="30"></progress>
+                        </div>
+                    </div>
+                    <div class="back-end" id="back-end">
+                        <div class="skill">
+                            <i class="fa-brands fa-node-js" style="color: #3e903c;"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-node" style="color: #3c873a;"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                    </div>
+                    <div class="data-base" id="data-base">
+                        <div class="skill" title="MongoDB">
+                            <i class="fa-solid fa-database"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                    </div>
+                    <div class="version-control" id="version-control">
+                        <div class="skill">
+                            <i class="fa-brands fa-git"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-github"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-gitlab" style="color: #63E6BE;"></i>
+                            <progress max="100" value="40"></progress>
+                        </div>
+                    </div>
+                    <div class="other-tools" id="other-tools">
+                        <div class="skill" title="RESTful APIs">
+                            <i class="fa-solid fa-server"></i>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skill" title="Websocket">
+                            <i class="fa-solid fa-desktop"></i>
+                            <progress max="100" value="40"></progress>
+                        </div>
+                        <div class="skill" title="Node Mailer">
+                            <i class="fa-regular fa-envelope"></i>
+                            <progress max="100" value="40"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Projects Section -->
+        <section>
+            <div class="projects" id="projects">
+                <div class="headline">
+                    <h1>My Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="./assets/mamaearth.png" alt="" class="project-img">
+                        <div class="project-content">
+                            <h3>Mamaearth</h3>
+                            <p>Developed a web application for Mamaearth, showcasing a diverse range of all-natural beauty products tailored for every skin type, with intuitive search functionality that allows users to effortlessly find products that meet their specific needs.</p>
+                            <a href="https://react-mamaearth-clone.vercel.app/" class="btn" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="./assets/reliance.png" alt="" class="project-img">
+                        <div class="project-content">
+                            <h3>Reliance</h3>
+                            <p>Developed a fully responsive Reliance Digital Clone, enabling users to purchase trending and authentic Reliance electronics with exclusive offers.</p>
+                            <a href="https://reliance-digital-clone-alpha.vercel.app/" class="btn" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section>
+            <div class="contact" id="contact">
+                <div class="headline">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="contact-form">
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required placeholder="Full Name">
+                            <input type="email" name="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="tel" id="tel" placeholder="Contact Number" required>
+                            <input type="text" name="subject" id="subject" placeholder="Email Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" cols="43" rows="15" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
